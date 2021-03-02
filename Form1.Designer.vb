@@ -22,45 +22,45 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.btn_ok = New System.Windows.Forms.Button()
+        Me.btn_cancel = New System.Windows.Forms.Button()
+        Me.txt_Output = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
-        'Button1
+        'btn_ok
         '
-        Me.Button1.Location = New System.Drawing.Point(450, 369)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(117, 46)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btn_ok.Location = New System.Drawing.Point(450, 369)
+        Me.btn_ok.Name = "btn_ok"
+        Me.btn_ok.Size = New System.Drawing.Size(117, 46)
+        Me.btn_ok.TabIndex = 0
+        Me.btn_ok.Text = "OK"
+        Me.btn_ok.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btn_cancel
         '
-        Me.Button2.Location = New System.Drawing.Point(607, 369)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(117, 46)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btn_cancel.Location = New System.Drawing.Point(607, 369)
+        Me.btn_cancel.Name = "btn_cancel"
+        Me.btn_cancel.Size = New System.Drawing.Size(117, 46)
+        Me.btn_cancel.TabIndex = 1
+        Me.btn_cancel.Text = "Cancel"
+        Me.btn_cancel.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'txt_Output
         '
-        Me.TextBox1.Location = New System.Drawing.Point(146, 68)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(497, 39)
-        Me.TextBox1.TabIndex = 2
+        Me.txt_Output.Location = New System.Drawing.Point(146, 68)
+        Me.txt_Output.Name = "txt_Output"
+        Me.txt_Output.Size = New System.Drawing.Size(497, 39)
+        Me.txt_Output.TabIndex = 2
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(13.0!, 32.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Red
+        Me.BackColor = System.Drawing.Color.Silver
         Me.ClientSize = New System.Drawing.Size(777, 482)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.txt_Output)
+        Me.Controls.Add(Me.btn_cancel)
+        Me.Controls.Add(Me.btn_ok)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -68,7 +68,7 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents btn_ok As Button
+    Friend WithEvents btn_cancel As Button
+    Friend WithEvents txt_Output As TextBox
 End Class
